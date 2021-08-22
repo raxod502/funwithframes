@@ -301,7 +301,7 @@ void setup() {
   rectMode(CORNERS);
   ellipseMode(CORNERS);
   
-  size(WIDTH, HEIGHT);
+  surface.setSize(WIDTH, HEIGHT);
   font = loadFont("SansSerif-32.vlw");
   
   resetGameObjects();
